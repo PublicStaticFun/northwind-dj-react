@@ -1,0 +1,43 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# --- Virtualenv ---
+env/
+venv/
+ENV/
+.venv/
+
+# --- Django ---
+*.sqlite3
+media/
+staticfiles/
+static/
+
+# --- Environment variables ---
+.env
+.env.*
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+
+# --- Migrations ---
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# --- Cache ---
+.DS_Store
+*.pot
+*.pyc
+*.pytest_cache/
+.coverage
+dist/
+build/
