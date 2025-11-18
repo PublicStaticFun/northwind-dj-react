@@ -1,1 +1,29 @@
+# Entornos virtuales
 venv/
+.env
+
+# Compilados de Python
+__pycache__/
+*.pyc
+
+# Archivos de base de datos
+*.sql
+*.dump
+
+# PostgreSQL export files
+*.backup
+
+# Node.js
+node_modules/
+
+# Build de React
+dist/
+build/
+
+# Django
+/staticfiles/
+media/
+
+# Archivos temporales
+*.log
+.DS_Store
