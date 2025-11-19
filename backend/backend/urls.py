@@ -1,7 +1,10 @@
 from django.urls import path, include
-from django.contrib import admin
+from django.http import JsonResponse
+
+def home(request):
+    return JsonResponse({"status": "OK", "message": "Northwind API running"})
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
+    path("", home),
     path("api/", include("api.urls")),
 ]
